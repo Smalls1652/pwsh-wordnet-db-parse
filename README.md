@@ -4,13 +4,13 @@ Threw this script together for parsing the database files from [Princeton's Word
 
 There should be `155,467` English words parsed from the files.
 
-## Pre-requisites
+## 🧰 Pre-requisites
 
 - [PowerShell 7.2](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.2)
   - May work on other versions of PowerShell, but I have only tested this on PowerShell 7.2.
 - [WordNet® 3.1 DB files](https://wordnetcode.princeton.edu/wn3.1.dict.tar.gz)
 
-## Usage
+## 🧑‍💻 Usage
 
 To start the parse, you need to extract the `wn3.1.dict.tar.gz` file. Then note the path where the files whose names start with `index.` are located.
 
@@ -22,7 +22,7 @@ $wordNetWords = .\Invoke-ParseWordNetDictDBFile.ps1 -DbDirectoryPath ".\replace\
 
 You can then pipe the `$wordNetWords` variable to other cmdlets, like `ConvertTo-Json`.
 
-## License
+## 🔑 License
 
 The script is licensed with the MIT license, [which can be found here](LICENSE).
 
