@@ -1,4 +1,4 @@
-# WordNet Dictionary DB File Parser
+# WordNet® Dictionary DB File Parser
 
 Threw this script together for parsing the database files from [Princeton's WordNet® 3.1 dictionary](https://wordnet.princeton.edu/). It's not perfect and I might be missing a few things, but I wanted to generate a word list to use in some other things I'm making and this was the quickest and easiest way. It only gets the words and what category the word is in (Noun, verb, adjective, and adverb), so no definitions or any other data contained in the database files.
 
